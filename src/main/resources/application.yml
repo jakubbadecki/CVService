@@ -1,0 +1,16 @@
+application-description: CV Service by Jakub Badecki
+application-version: 1.0
+spring:
+  data:
+    mongodb:
+      database: test
+      port: 27017
+  data-source:
+    driver-class-name=com.
+  jackson:
+    time-zone: Europe/London
+springdoc:
+  swagger-ui:
+    path: /api/index.html
+  api-docs:
+    path: /api/api-docs
